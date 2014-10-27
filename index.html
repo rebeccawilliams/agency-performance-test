@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html prefix="dct: http://purl.org/dc/terms/
+              rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+              dcat: http://www.w3.org/ns/dcat#
+	      foaf: http://xmlns.com/foaf/0.1/
+              odrs: http://schema.theodi.org/odrs#">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>agency performance test</title>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body typeof="dcat:Dataset" resource="https://github.com/rebeccawilliams/agency-performance-test">
+  <nav>
+  	<div class='navbar navbar-inverse navbar-static-top' id='topbar'>
+  		<div class='container'>
+  			<div class='navbar-inner'>
+  				<a class='brand' href='/'>
+  					<img alt="Logo" src="img/logo.png" />
+  				</a>
+  			</div>
+  		</div>
+  	</div>
+  </nav>
+
+  <header>
+  	<div class="container">
+  	<h1 property="dct:title">agency performance test</h1>
+  	</div>
+  </header>
+
+  <div class='container main-default' id='main'>
+
+  <p property="dct:description">test</p>
+
+  <div property="dct:publisher" resource="https://rebeccawilliams.us/agency">
+  	<h2 property="rdfs:label">Publisher</h2>
+  	<a href="https://rebeccawilliams.us/agency" about="https://rebeccawilliams.us/agency" property="foaf:homepage">
+  		<span property="foaf:name">DC, a copy</span>
+  	</a>
+  </div>
+
+
+  <div property="dct:rights" resource="#rights" typeof="odrs:RightsStatement">
+  	<h2 property="rdfs:label">License</h2>
+  	<div property="dct:license odrs:dataLicense odrs:contentLicense" resource="https://creativecommons.org/publicdomain/zero/1.0/">
+  		<a href="https://creativecommons.org/publicdomain/zero/1.0/"><span property="dct:title">CC0 1.0</span></a>
+  	</div>
+  </div>
+
+  <div>
+  	<h2 property="rdfs:label">Update frequency</h2>
+  	<span property="dcat:accrualPeriodicity">One-off</span>
+  </div>
+
+  <div property='dcat:distribution' typeof='dcat:Distribution'>
+    <h1 property="dct:title">Data Download</h1>
+    <article class="dataitem">
+			<div class="download-block">
+			<a class="datalink" property='dcat:accessURL' href="http://rebeccawilliams.github.io/agency-performance-test/data/Agency_Performance_Data_FY08_current_plain.csv"><i class="fa fa-file-text fa-3x"></i>
+			<span property='dcat:mediaType' content='text/csv'>
+				<h3 property="rdfs:label" style="display: none">Type</h3>
+        text/csv
+			</span>
+			</a>
+			</div>
+			<div class="description-block">
+				<h3>agency performance</h3>
+				<p>test</p>
+				<p class="objectHistory"><a href="http://github.com/rebeccawilliams/agency-performance-test/commits/gh-pages/data/Agency_Performance_Data_FY08_current_plain.csv" target="_blank">View history</a></p>
+			</div>
+</article>
+
+  </div>
+
+  <h2>Data quality and accuracy</h2>
+
+    <p><a href="http://github.com/rebeccawilliams/agency-performance-test/issues" target="_blank">See all open issues with this dataset</a></p>
+
+	  <p>If you find an error in this dataset, have a comment or request, please log this in the <a href="http://github.com/rebeccawilliams/agency-performance-test/issues" target="_blank">Dataset Issue Tracer</a>.</p>
+
+	  <p>All comments and subsequent fixes will be <a href="http://github.com/rebeccawilliams/agency-performance-test/issues" target="_blank">logged openly</a> such that you can easily see the provenance of each object in this dataset.</p>
+
+    <h2>Subscribe to changes</h2>
+    <p><a href="http://github.com/rebeccawilliams/agency-performance-test/commits/gh-pages.atom" target="_blank"><img src="img/rss.png" width="20px"/></a> Subscribe to changes in this dataset.</p>
+    <p class="lastUpdate">Last update: 2014-10-27 23:18:33 UTC</p>
+
+  </div>
+
+  <footer id='footer'>
+  	<div class="container right">
+  	<p><a href="http://git-data-publisher.herokuapp.com/">GitHub data publisher</a> by <a href='http://www.theodi.org'>Open Data Institute</a></p>
+  	<p class='license'><a href='http://creativecommons.org/licenses/by-sa/4.0/' rel='license'><img alt="Creative Commons Licence" height="15" src="img/logo_cc_80x15.png" width="80" /></a></p>
+  	</div>
+  </footer>
+</body>
+</html>
